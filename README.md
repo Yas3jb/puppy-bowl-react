@@ -1,8 +1,22 @@
-# React + Vite
+# Puppy Bowl App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Welcome to the Puppy Bowl App! This application allows users to manage a roster of adorable puppies, featuring functionalities such as adding new players, viewing player details, and deleting players. The app is built with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- View the home page with a welcome message and navigation to the roster.
+- Navigate to the roster page to see all available players.
+- Add a new player to the roster using the provided form.
+- View details of each player, including their name, breed, and image.
+- Delete a player from the roster.
+- Enjoy a simple footer message indicating the application's identity.
+
+## Technologies Used
+
+- React
+- React Router
+- Fetch API
+- HTML
+- CSS
