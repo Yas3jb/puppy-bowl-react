@@ -2,6 +2,7 @@ import AllPlayers from "./components/AllPlayers";
 import Home from "./components/Home";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/players" element={<AllPlayers />} />
       </Routes>
+      <Footer />
     </>
   );
 }
