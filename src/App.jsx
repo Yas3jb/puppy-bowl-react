@@ -1,5 +1,16 @@
+import AllPlayers from "./components/AllPlayers";
+import Home from "./components/Home";
+import { Route, Routes } from "react-router-dom";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/players" element={<AllPlayers />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
