@@ -11,7 +11,7 @@ export default function Navbar() {
             <Link to="/">HOME</Link>
           </button>
           <button className="details-btn">
-            <Link to="/players">ROSTER</Link>
+            <Link to="/roster">ROSTER</Link>
           </button>
         </ul>
       </nav>
