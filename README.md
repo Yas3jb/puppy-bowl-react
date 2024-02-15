@@ -18,5 +18,4 @@ Welcome to the Puppy Bowl App! This application allows users to manage a roster 
 - React
 - React Router
 - Fetch API
-- HTML
 - CSS
